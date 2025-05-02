@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root{
+    background-image: linear-gradient(to bottom right,rgb(2, 0, 21),rgb(0, 6, 74));
+color:white;
+overflow-x: hidden;
+
+}
+
