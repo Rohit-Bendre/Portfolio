@@ -1,6 +1,7 @@
 
 
 import todo from "../assets/todolist.png"
+import bg from "../assets/bg2.png"
 import Currency from "../assets/CuurencyCnv.png"
 import Ecom from "../assets/E-com.png"
 import { useEffect } from 'react';
@@ -16,7 +17,8 @@ export default function Projects() {
   }, []);
 
   return (
-    <div className="border-b pb-15 mb-15" data-AOS="fade" data-AOS-delay="200" style={{ backgroundImage: "url('src/assets/bg2.png')", backgroundSize: '100% 100%', }}>
+    <div className="border-b pb-15 mb-15 overflow-hidden" data-AOS="fade" data-AOS-delay="200" >
+   
       <div className='w-full  '>
         <div className='m-10 flex justify-center align-center  '>
 
@@ -26,15 +28,16 @@ export default function Projects() {
           </span>
         </div>
 
-        <div className='flex flex-wrap  justify-evenly'>
+        <div className='flex flex-wrap  justify-evenly '>
 
-
+        <img src={bg} className="absolute w-full h-6/7 my-30 lg:my-5 "></img>
           <div data-AOS="fade-up" className=' border rounded-3xl  bg-white/8 backdrop-blur-sm my-5 mx-3 w-6/6 h-65 lg:w-6/14 lg:h-80  overflow-hidden' style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}}>
           <a href="https://rohit-bendre.github.io/Currency_Converter/">
             <div className=' rounded-3xl h-full flex justify-between items-center'>
 
 
-              <div className=" w-6/12 h-full" style={{ backgroundImage: "url('src/assets/CuurencyCnv.png')", backgroundSize: 'cover',   borderRight:"2px solid white"}}></div>
+              <div className=" w-6/12 h-full" style={{   borderRight:"2px solid white"}}>
+              <img src={Currency} className="w-full h-full"></img></div>
 
               <div className='flex w-6/12' >
 
@@ -59,7 +62,9 @@ export default function Projects() {
             <div className=' rounded-3xl h-full flex justify-between items-center'>
 
 
-              <div className=" w-6/12 h-full" style={{ backgroundImage: "url('src/assets/E-com.png')", backgroundSize: 'cover',   borderRight:"5px solid white"}}></div>
+              <div className=" w-6/12 h-full" style={{  borderRight:"5px solid white"}}>
+              <img src={Ecom} className="w-full h-full"></img>
+              </div>
 
               <div className='flex w-6/12' >
 
@@ -93,7 +98,8 @@ export default function Projects() {
             <div className=' rounded-3xl h-full flex justify-between items-center'>
 
 
-              <div className=" w-6/12 h-full" style={{ backgroundImage: "url('src/assets/todolist.png')", backgroundSize: 'cover',   borderRight:"5px solid white"}}></div>
+              <div className=" w-6/12 h-full" style={{   borderRight:"5px solid white"}}>
+              <img src={todo} className="h-full w-full"></img></div>
 
               <div className='flex w-6/12' >
 

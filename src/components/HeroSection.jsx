@@ -28,7 +28,7 @@ const HeroSection = () => {
                  just get in contact.
                   </p>
                   <div className=' my-10 flex justify-center'  data-AOS="fade-up">
-                    <a href="#"  className='bg-gradient-to-r from-purple-500 to-blue-500 p-2 mx-5 rounded font-bold'>Download Resume</a>
+                    <a href="https://drive.google.com/file/d/16xqjA_SpzwOpyzUTsh2CWzt1bgbE9ApM/view?usp=drivesdk"  className='bg-gradient-to-r from-purple-500 to-blue-500 p-2 mx-5 rounded font-bold'>Download Resume</a>
                     <a href="https://www.linkedin.com/in/rohit-bendre-b31219325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  className='p-2 rounded border-2 bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent font-bold'  style={{
     borderImage: 'linear-gradient(to right, #FF5EFA ,#1C5CFF) 1'
   }}>LinkedIn</a>

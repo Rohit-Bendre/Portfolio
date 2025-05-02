@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from "../components/Footer"
 import Rohit from '../assets/Rohit_Profile_Photo.jpg';
 import Rohit2 from '../assets/Profile_new2.png';
+import bg from '../assets/bg2.png';
 import { Handshake } from 'lucide-react';
 import { useEffect } from 'react';
 import { Linkedin, Github ,Instagram, Contact,MailPlus} from 'lucide-react';
@@ -22,9 +23,10 @@ export default function About() {
 
   return (
     <>
-    <div class="about_section"  data-AOS="fade" data-AOS-delay="300" className='pb-65 lg:pb-25 pt-5 gap-2 isolate  grid-cols-2 flex'  style={{ backgroundImage: "url('src/assets/bg2.png')"   ,   backgroundSize:'cover', backgroundRepeat: 'no-repeat'}} >
+    <div class="about_section"  data-AOS="fade" data-AOS-delay="300" className='pb-65 lg:pb-25 pt-5 gap-2 isolate  grid-cols-2 flex  overflow-hidden'  >
 
       <div class="About_image" className=' pt-17 lg:pt-0 flex   justify-end mt-5 lg:mt-0'>
+        <img src={bg} className="absolute w-full h-6/7 my-10 lg:my-20 "></img>
       <img src={Rohit} className=' h-6/6 w-6/11 rounded-full my mx-2 lg:w-6/20 lg:mx-30 ' data-aos-delay="200" data-AOS="fade-up"></img>
       </div>
 
@@ -53,6 +55,7 @@ export default function About() {
     <div className='mb-20 py-10  border-t ' >
 
 <div className='pb-5 lg:pb-10   border-b overflow-hidden' data-AOS="fade" data-AOS-delay="300" style={{ backgroundImage: "url('src/assets/bg2.png')"   ,   backgroundSize:'cover',}}>
+<img src={bg} className="absolute w-full h-6/7 my-20 lg:my-20 "></img>
     <div className=' -mx-10 lg:mt-10  text-sm text-center flex justify-evenly   '
    >
      <div className=' w-0 lg:w-6/30 '>
@@ -108,12 +111,13 @@ export default function About() {
      </div>
      </a>
 
+<a href="https://www.instagram.com/rohit.10143?igsh=bHZpb2hvczJidnB2">
      <div className='p-1.5 mt-0.5 lg:h-12 lg:w-12 lg:p-2 bg-gradient-to-br from-purple-500  to-blue-600  flex justify-center items-center rounded-full cursor-pointer'>
      <Instagram className=' lg:h-10 lg:w-8 ' ></Instagram>
      </div>
-
+     </a>
     
-    <a href="mailto:rohitbendre34@gmail.com">
+    <a href="mailto:rohitbendre35@gmail.com">
      <div className='p-1.5 mt-0.5 lg:h-12 lg:w-12 lg:p-2 bg-gradient-to-br from-purple-500  to-blue-600  flex justify-center items-center rounded-full cursor-pointer' 
    >
      <MailPlus className=' lg:h-10 lg:w-8' ></MailPlus>
