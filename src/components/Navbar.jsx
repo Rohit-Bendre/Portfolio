@@ -15,10 +15,10 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80 ">
-        <div className=" container px-4 mx-auto relative text-sm ">
+        <div className=" container px-1 lg:px-3 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
             <div className="flex items-center flex-shrink-0">
-                <img src={logo} className="h-10 w-10  mr-2"  style={{ filter: 'drop-shadow(0 0px 10px rgba(147, 51, 234, 1))' }} alt="logo"/>
+                <img src={logo} className="h-7 w-7 lg:h-10 lg:w-10  mr-2"  style={{ filter: 'drop-shadow(0 0px 10px rgba(147, 51, 234, 1))' }} alt="logo"/>
                 <span className='text-sm lg:text-xl tracking-tight font-bold'>Rohit Bendre</span>
             </div>
             <ul className="hidden lg:flex ml-14 space-x-12 font-bold">
@@ -28,11 +28,11 @@ const Navbar = () => {
                     </li>
             ))}
             </ul>
-            <div className="flex justify-center spacsw-x-12 items-center">
+            <div className="flex justify-between w-65 lg:w-60 items-center">
             <a href="https://github.com/Rohit-Bendre" className='py-1 px-1 lg:py-2 lg:px-3 border-2 rounded font-bold mx-2 bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent' style={{
     borderImage: 'linear-gradient(to right, #FF5EFA ,#1C5CFF) 1'
   }}>GitHub</a>
-            <a href="https://drive.google.com/file/d/16xqjA_SpzwOpyzUTsh2CWzt1bgbE9ApM/view?usp=drivesdk" className='bg-gradient-to-r mx-2 from-purple-500 to-blue-500 py-2 px-1 lg:py-2 lg:px-3 rounded-md font-bold'>Download Resume</a>
+            <a href="https://drive.google.com/file/d/16xqjA_SpzwOpyzUTsh2CWzt1bgbE9ApM/view?usp=drivesdk" className='bg-gradient-to-r mx-2 from-purple-500 to-blue-500 py-2 px-1 lg:py-2 lg:px-3 text-sm rounded-md font-bold flex items-center just'>Download Resume</a>
 
             </div>
             <div className="lg:hidden md:flex flex-col justify-end" >
