@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80 ">
-        <div className=" container px-1 lg:px-3 mx-auto relative text-sm">
+        <div className=" container px-1 lg:px-7 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
             <div className="flex items-center flex-shrink-0">
                 <img src={logo} className="h-7 w-7 lg:h-10 lg:w-10  mr-2"  style={{ filter: 'drop-shadow(0 0px 10px rgba(147, 51, 234, 1))' }} alt="logo"/>
@@ -28,7 +28,7 @@ const Navbar = () => {
                     </li>
             ))}
             </ul>
-            <div className="flex justify-between w-65 lg:w-60 items-center">
+            <div className="flex justify-between w-60 lg:w-70 items-center">
             <a href="https://github.com/Rohit-Bendre" className='py-1 px-1 lg:py-2 lg:px-3 border-2 rounded font-bold mx-2 bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent' style={{
     borderImage: 'linear-gradient(to right, #FF5EFA ,#1C5CFF) 1'
   }}>GitHub</a>
