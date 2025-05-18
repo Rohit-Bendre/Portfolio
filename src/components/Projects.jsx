@@ -159,8 +159,8 @@ export default function Projects() {
             <h1 className="font-bold">COMING SOON...</h1>
           </div>
 
-        <div data-AOS="fade-up " data-aos-delay="200" style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}} className=' border  rounded-3xl  bg-white/8 my-5 w-6/7 h-65 lg:w-6/14 lg:h-80  overflow-hidden  backdrop-blur-sm flex items-center justify-center'>
-            <h1 className="font-bold">COMING SOON...</h1>
+        <div className='  my-5 w-6/7 h-65 lg:w-6/14 lg:h-80  '>
+      
           </div>
 
       </div>
