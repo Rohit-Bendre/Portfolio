@@ -33,7 +33,7 @@ export default function Projects() {
         <img src={bg} className="absolute w-full h-6/7 my-30 lg:my-20 "></img>
        
         <div data-AOS="fade-up" className=' border rounded-3xl  bg-white/8 backdrop-blur-sm my-5 mx-3 w-6/6 h-65 lg:w-6/14 lg:h-80  overflow-hidden' style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}}>
-            <a href="https://github.com/Rohit-Bendre/todo_webapp">
+            <a href="https://code-reviewer-1-ydz8.onrender.com/">
             <div className=' rounded-3xl h-full flex justify-between items-center'>
 
 
@@ -158,10 +158,15 @@ export default function Projects() {
       <div data-AOS="fade-up " data-aos-delay="200" style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}} className=' border  rounded-3xl  bg-white/8 my-5 w-6/7 h-65 lg:w-6/14 lg:h-80  overflow-hidden  backdrop-blur-sm flex items-center justify-center'>
             <h1 className="font-bold">COMING SOON...</h1>
           </div>
+
+          <div className=' my-5 w-6/7 h-65 lg:w-6/14 lg:h-80  overflow-hidden '>
+
+          </div>
+
       </div>
 
 
-
+    
 
       </div>
     </div>
