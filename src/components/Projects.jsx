@@ -159,9 +159,7 @@ export default function Projects() {
             <h1 className="font-bold">COMING SOON...</h1>
           </div>
 
-          <div className=' my-5 w-6/7 h-65 lg:w-6/14 lg:h-80  overflow-hidden '>
-
-          </div>
+  
 
       </div>
 
