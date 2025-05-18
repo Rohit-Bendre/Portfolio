@@ -37,7 +37,7 @@ export default function Footer() {
         <span className="inline-block w-3 h-3 rounded-full bg-green-500 mr-2"></span>Rohit Bendre
       </p>
       <p className="hover:text-teal-400 transition">
-        <span className="inline-block w-3 h-3 rounded-full bg-green-500 mr-2"></span>rohitbendre513@gmail.com
+        <span className="inline-block w-3 h-3 rounded-full bg-green-500 mr-2"></span>rohitbendre35@gmail.com
       </p>
       <p className="hover:text-teal-400 transition">
         <span className="inline-block w-3 h-3 rounded-full bg-green-500 mr-2"></span>India, Maharashtra

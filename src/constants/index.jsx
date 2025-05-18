@@ -47,9 +47,9 @@ export const features = [
   },
   {
     icon: <Rocket />,
-    text: "Bootsrap and Icon Libraries",
+    text: "Deployment Tools",
     description:
-      "Knowledge of Bootstrap for fast development of Web applications, Icon Libraries Font Awesome, lucid react, Flag APIs etc. ",
+      "Deploying Static and Full Stack projects to production on popular tools like Render.com , Docker etc.",
   },
 ];
 
@@ -70,9 +70,9 @@ export const checklistItems = [
       "To Showcase the projects i made, i can push and update the projects and its source code to the web.",
   },
   {
-    title: "Fast Learner",
+    title: "Enough Knowledge of Docker and Render like tools.",
     description:
-      "One of my Great qualities is that, i can learn and knowldege of new things ASAP.",
+      "I have enough knowledge of deployment tools like Docker, Render.com etc. Deployed My Full Stack 'Code-Reviewer' on render.com",
   },
 ];
 

@@ -45,7 +45,7 @@ export default function About() {
       <h1  data-AOS="fade-up" className='text-2xl font-bold w-80 text-left my-2 lg:my-6 lg:text-5xl lg:w-1500 tracking-wider' >WAY TO SOFTWARE ENGINEER.</h1>
       <p  data-AOS="fade-up" className='text-sm  text-neutral-300'>
         I know the work of an SDE is not about only coding but also exploring the Tech as well as non Tech world, doing research on new terminologies, doing Team work, Lead the team etc.
-        I dont have any experience about the how the workflow is carried out in companies, but i definetly have a great experience of Creating Good Enough Projects in different Programming Languages.
+        I dont have any experience about how the workflow is carried out in companies, but i definetly have a great experience of Creating Good Enough Projects in different Programming Languages.
       </p>
     </div>
    
@@ -65,11 +65,11 @@ export default function About() {
       <h1 className='font-bold'>-- CORE SKILLS --</h1><br></br>
       <p style={{fontSize:"14px"} }>-Strong  knowledge of different programming languages, Basics Are strong in Programming, Concepts are very clear about Object Oriented Programming languages, Working on real world projects.
         <br/> <br/>
-        - Currently Hands On On Following Programming languages and tools : 1.MERN Stack , 2.Java , 3.Python , 4.Javascript , 5.HTML CSS , 6.Bootstrap , 7. Fetching API and working on json data, 8.working with online 3rd party libraries and tools.
+        - Currently Hands On Following Programming languages and tools : 1.MERN Stack , 2.Java , 3.Python , 4.Javascript , 5.HTML CSS , 6.Bootstrap , 7. Fetching API and working on json data, 8.working with online 3rd party libraries and tools.
         <br/> <br/>
         - Strong Communication Skills : Professional talks, public speaking, presentations, Communicating with working professionals on LinkedIn.
         <br/> <br/>
-        - More than Necessary Knowledge about Git , Github , Docker And other Professional Tools related to programming.
+        - Enough Knowledge of Git , Github , Docker , Render.com And other Professional Tools related to programming.
         <br/> <br/>
         - Better Knowledge of AI tools to make the projects more functional, use of AI models in the projects, Integration of AI tools in the projects.
         <br/> <br/>

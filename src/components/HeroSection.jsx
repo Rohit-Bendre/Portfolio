@@ -21,14 +21,14 @@ const HeroSection = () => {
                 This Side..!
             </h1>
             <p className='mt-10  text-center text-neutral-400 max-w-4xl mx-10 lg:mx-45'  data-AOS="fade-up" style={{fontSize:'15px'}}>
-                 Hello everyone, welcome to my Portfolio, myself Rohit Balasaheb Bendre and  I am currently persuing BCA now im in my 3rd year of BCA.
-                 Im on my way to become SDE-1, in love with programming. Working on Android development, Web devopment, AI integrated Projects etc. This Portfolio is developed with React.
+                 Hello everyone, welcome to my Portfolio, myself Rohit Balasaheb Bendre and  I am currently persuing BCA now i'm in my 3rd year of BCA.
+                 Im on my way to become SDE-1, in love with programming. Working on Android development, Web development, AI integrated Projects etc. This Portfolio is developed with React.
                  <br></br>
-                 So... Just surf around my Portfolio, i created it from scratch, and if you like my work, 
+                 So... Just surf around the Portfolio, i created it from scratch, and if you like my work, 
                  just get in contact.
                   </p>
                   <div className=' my-10 flex justify-center'  data-AOS="fade-up">
-                    <a href="https://drive.google.com/file/d/16xqjA_SpzwOpyzUTsh2CWzt1bgbE9ApM/view?usp=drivesdk"  className='bg-gradient-to-r from-purple-500 to-blue-500 p-2 mx-5 rounded font-bold flex justify-center items-center'>Download Resume</a>
+                    <a href="https://drive.google.com/file/d/1Bdhvf9yH9qUpD2s6Q-_hNSXcisQ0T-fp/view?usp=drivesdk"  className='bg-gradient-to-r from-purple-500 to-blue-500 p-2 mx-5 rounded font-bold flex justify-center items-center'>Download Resume</a>
                     <a href="https://www.linkedin.com/in/rohit-bendre-b31219325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  className='p-2 rounded border-2 bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent font-bold'  style={{
     borderImage: 'linear-gradient(to right, #FF5EFA ,#1C5CFF) 1'
   }}>LinkedIn</a>
