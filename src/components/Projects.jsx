@@ -12,8 +12,8 @@ export default function Projects() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // animation duration
-      once: false,     // whether animation should happen only once
+      duration: 1000, 
+      once: false,    
     });
   }, []);
 
