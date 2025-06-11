@@ -4,6 +4,7 @@ import todo from "../assets/todolist.png"
 import bg from "../assets/bg2.png"
 import Currency from "../assets/CuurencyCnv.png"
 import Ecom from "../assets/E-com.png"
+import Scraper from "../assets/SCRAPER.jpg"
 import reviewer from "../assets/ai-reviewer.png"
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -29,10 +30,42 @@ export default function Projects() {
           </span>
         </div>
 
+
+
+
+
+      
         <div className='flex flex-wrap  justify-evenly '>
-        <img src={bg} className="absolute w-full h-6/7 my-20 lg:my-10 "></img>
+        <img src={bg} className="absolute w-full h-6/7 my-40 lg:my-15 "></img>
        
         <div data-AOS="fade-up" className=' border rounded-3xl  bg-white/8 backdrop-blur-sm my-5 mx-3 w-6/6 h-65 lg:w-6/14 lg:h-80  overflow-hidden' style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}}>
+            <a href="https://code-reviewer-1-ydz8.onrender.com/">
+            <div className=' rounded-3xl h-full flex justify-between items-center'>
+
+
+              <div className=" w-6/12 h-full" style={{   borderRight:"5px solid white"}}>
+              <img src={Scraper} className="h-full w-full"></img></div>
+
+              <div className='flex w-6/12' >
+
+                <div className='w-full  p-2 text-center  lg:m-3 text-neutral-400' style={{ fontSize: "15px" }}>
+                  <h1 className='  lg:mt-5 lg:mb-5 font-bold text-white mt-15'>1. Web Scraper</h1>
+                  <p className='text-sm  ' ></p>
+                  A Multithreaded powerful Web-Scraper with depth-2. Developed using Stack Java + React. And the scraped data can be downloaded in the format of an excel sheet.
+                  It will scrape the data of provided link, as well as it will collect the internal links of that page, and will scrape all that links as well.
+
+                </div>
+
+              </div>
+
+
+
+            </div>
+            </a>
+          </div>
+
+      
+          <div data-AOS="fade-up" className=' border rounded-3xl  bg-white/8 backdrop-blur-sm my-5 mx-3 w-6/6 h-65 lg:w-6/14 lg:h-80  overflow-hidden' style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}}>
             <a href="https://code-reviewer-1-ydz8.onrender.com/">
             <div className=' rounded-3xl h-full flex justify-between items-center'>
 
@@ -43,7 +76,7 @@ export default function Projects() {
               <div className='flex w-6/12' >
 
                 <div className='w-full  p-2 text-center  lg:m-3 text-neutral-400' style={{ fontSize: "15px" }}>
-                  <h1 className='  lg:mt-5 lg:mb-5 font-bold text-white mt-15'>1. Code Reviewer</h1>
+                  <h1 className='  lg:mt-5 lg:mb-5 font-bold text-white mt-15'>2. Code Reviewer</h1>
                   <p className='text-sm  ' ></p>
                   A full stack project describing the strong and clear knowledge of integration of AI in the programming.
              
@@ -58,6 +91,20 @@ export default function Projects() {
             </div>
             </a>
           </div>
+         
+        </div>
+
+
+
+
+
+
+
+
+        <div className='flex flex-wrap  justify-evenly '>
+  
+       
+       
 
       
           <div data-AOS="fade-up" className=' border rounded-3xl  bg-white/8 backdrop-blur-sm my-5 mx-3 w-6/6 h-65 lg:w-6/14 lg:h-80  overflow-hidden' style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}}>
@@ -71,7 +118,7 @@ export default function Projects() {
               <div className='flex w-6/12' >
 
                 <div className='w-full  p-2 text-center  lg:m-3 text-neutral-400' style={{ fontSize: "15px" }}>
-                  <h1 className='  lg:mt-5 lg:mb-5 font-bold text-white mt-10'>2. Currency Converter</h1>
+                  <h1 className='  lg:mt-5 lg:mb-5 font-bold text-white mt-10'>3. Currency Converter</h1>
                   <p className='text-sm  ' ></p>
                   The currency Converter As the name suggests, converts amount of currency on one country into amount of currency of another country.
                   <br></br>
@@ -84,16 +131,9 @@ export default function Projects() {
             </div>
             </a>
           </div>
-         
-        </div>
 
 
-
-
-        <div className='flex flex-wrap  justify-evenly'>
-
-
-        <div data-AOS="fade-up" className=' border rounded-3xl  bg-white/8 backdrop-blur-sm my-5 mx-3 w-6/6 h-65 lg:w-6/14 lg:h-80  overflow-hidden' style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}}>
+          <div data-AOS="fade-up" className=' border rounded-3xl  bg-white/8 backdrop-blur-sm my-5 mx-3 w-6/6 h-65 lg:w-6/14 lg:h-80  overflow-hidden' style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}}>
             <a href="https://github.com/Rohit-Bendre/todo_webapp">
             <div className=' rounded-3xl h-full flex justify-between items-center'>
 
@@ -104,7 +144,7 @@ export default function Projects() {
               <div className='flex w-6/12' >
 
                 <div className='w-full  p-2 text-center  lg:m-3 text-neutral-400' style={{ fontSize: "15px" }}>
-                  <h1 className='  lg:mt-5 lg:mb-5 font-bold text-white mt-15'>3. Todo List</h1>
+                  <h1 className='  lg:mt-5 lg:mb-5 font-bold text-white mt-15'>4. Todo List</h1>
                   <p className='text-sm  ' ></p>
                   Todo list as the name suggests, is an web app where you can list your tasks you want to do it in upcoming time.
              
@@ -120,6 +160,14 @@ export default function Projects() {
             </a>
           </div>
 
+
+         
+        </div>
+
+
+
+
+        <div className='flex flex-wrap  justify-evenly'>
          
           <div data-AOS="fade-up" className=' border rounded-3xl  bg-white/8 backdrop-blur-sm my-5 mx-3 w-6/6 h-65 lg:w-6/14 lg:h-80  overflow-hidden' style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}}>
            <a href="https://rohit-bendre.github.io/Ecommerce_wireframe/">
@@ -133,7 +181,7 @@ export default function Projects() {
               <div className='flex w-6/12' >
 
                 <div className='w-full  p-2 text-center  lg:m-3 text-neutral-400' style={{ fontSize: "15px" }}>
-                  <h1 className='  lg:mt-5 lg:mb-5 font-bold text-white mt-10'>4. Ecommmerce Clone</h1>
+                  <h1 className='  lg:mt-5 lg:mb-5 font-bold text-white mt-10'>5. Ecommmerce Clone</h1>
                   <p className='text-sm  ' ></p>
                   The E-commerce clone is a fronted project, which i just created with html and css, not a single line of the javascript or other scripts is used.
                     I created This when i was learning html and css.
@@ -145,6 +193,21 @@ export default function Projects() {
 
             </div>
             </a>
+          </div>
+
+
+
+
+          <div data-AOS="fade-up" className=' border rounded-3xl  bg-white/8 backdrop-blur-sm my-5 mx-3 w-6/6 h-65 lg:w-6/14 lg:h-80  overflow-hidden' style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}}>
+          
+            <div className=' flex justify-center items-center  h-full w-full '>
+
+              <div className=" font-bold"><h1>COMING SOON..</h1></div>
+              
+
+
+            </div>
+
           </div>
  
 
