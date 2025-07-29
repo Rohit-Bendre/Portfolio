@@ -39,7 +39,7 @@ export default function Projects() {
         <img src={bg} className="absolute w-full h-6/7 my-40 lg:my-15 "></img>
        
         <div data-AOS="fade-up" className=' border rounded-3xl  bg-white/8 backdrop-blur-sm my-5 mx-3 w-6/6 h-65 lg:w-6/14 lg:h-80  overflow-hidden' style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 1))' ,  border:"2px solid white"}}>
-            <a href="https://code-reviewer-1-ydz8.onrender.com/">
+            <a href="http://scraperbackend-production.up.railway.app">
             <div className=' rounded-3xl h-full flex justify-between items-center'>
 
 

@@ -70,9 +70,9 @@ export const checklistItems = [
       "To Showcase the projects i made, i can push and update the projects and its source code to the web.",
   },
   {
-    title: "Enough Knowledge of Docker and Render like tools.",
+    title: "Enough Knowledge of Railway and Render like tools.",
     description:
-      "I have enough knowledge of deployment tools like Docker, Render.com etc. Deployed My Full Stack 'Code-Reviewer' on render.com",
+      "I have enough knowledge of deployment tools like Railway, Render.com etc. Deployed My Full Stack 'Code-Reviewer' on render.com",
   },
 ];
 
