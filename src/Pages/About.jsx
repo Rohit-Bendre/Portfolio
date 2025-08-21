@@ -27,7 +27,7 @@ export default function About() {
 
       <div class="About_image" className=' pt-17 lg:pt-0 flex   justify-end mt-5 lg:mt-0'>
         <img src={bg} className="absolute w-full h-6/7 my-10 lg:my-20 "></img>
-      <img src={Rohit} className=' h-6/6 w-6/11 rounded-full  mx-2 lg:w-6/20 lg:mx-30 ' data-aos-delay="200" data-AOS="fade-up" style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 0.3))' }}></img>
+      <img src={Rohit} className=' h-6/6 w-6/11 rounded-full  mx-2 lg:w-6/20 lg:mx-30 lg:p-6 p-4  ' data-aos-delay="200" data-AOS="fade-up" style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 0.3))',boxShadow:'8px 8px 5px rgba(255,255,255,1) inset , -8px -5px 5px rgba(0,0,0,0.4) inset',backgroundColor:' #c4c4d9 ' }}></img>
       </div>
 
       <div class="Content" className=' absolute w-65 my-5 mx-2 lg:w-150 lg:my-20 lg:mx-15 '>
@@ -59,7 +59,7 @@ export default function About() {
     <div className=' -mx-10 lg:mt-10  text-sm text-center flex justify-evenly   '
    >
      <div className=' w-0 lg:w-6/30 '>
-      <img src={Rohit2} className=' rounded-full  '   data-AOS="fade-up" data-aos-delay="200" style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 0.3))' }}></img>
+      <img src={Rohit2} className=' rounded-full p-4.5 '   data-AOS="fade-up" data-aos-delay="200" style={{ filter: 'drop-shadow(0 5px 30px rgba(147, 51, 234, 0.3))',boxShadow:'8px 8px 5px rgba(255,255,255,1) inset , -8px -5px 5px rgba(0,0,0,0.350) inset',backgroundColor:' #c4c4d9 ' }}></img>
      </div>
      <div  data-AOS="fade-up" className='-ml-17  w-6/8 lg:w-6/12  lg:ml-10 text-center text-sm'>
       <h1 className='font-bold'>-- CORE SKILLS --</h1><br></br>
