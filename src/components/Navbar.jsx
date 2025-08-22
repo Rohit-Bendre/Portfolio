@@ -32,7 +32,7 @@ const Navbar = () => {
             <a href="https://github.com/Rohit-Bendre" className='py-1 px-1 lg:py-2 lg:px-3 border-2 rounded font-bold mx-2 bg-gradient-to-r  from-pink-500 to-blue-500 bg-clip-text text-transparent' style={{
     borderImage: 'linear-gradient(to right, #FF5EFA ,#1C5CFF) 1'
   }}>GitHub</a>
-            <a href="https://drive.google.com/file/d/12tuAcA7DKfRwl_hmAmkOwCdrbKRmm1JF/view?usp=drivesdk" className='bg-gradient-to-r mx-2 from-purple-500 to-blue-500 py-2 px-1 lg:py-2 lg:px-3 text-sm rounded-md font-bold flex items-center just'>Download Resume</a>
+            <a href="https://drive.google.com/file/d/1O54_7Td5_pVBDdbMmJqxJeGwJwuRV9D7/view" className='bg-gradient-to-r mx-2 from-purple-500 to-blue-500 py-2 px-1 lg:py-2 lg:px-3 text-sm rounded-md font-bold flex items-center just'>Download Resume</a>
 
             </div>
             <div className="lg:hidden md:flex flex-col justify-end" >
